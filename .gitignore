@@ -1,0 +1,15 @@
+*.jpg
+dataset_m.py
+dataset_insider.py
+hyperstyle_inference_img.py
+inference_video.py
+train_m.py
+train_m/
+train_log/
+train_log_m/
+train/
+validate/
+validate_m/
+__pycache__/
+*/__pycache__/
+
