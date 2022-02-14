@@ -19,7 +19,7 @@ cd arXiv2020-RIFE
 pip3 install -r requirements.txt
 ```
 
-* We provide two different models called RIFE and RIFE_m, Download the pretrained **HD** models from [here](https://drive.google.com/file/d/16lfuv87e-4TqsylZpjoejXLC1t-eSRU4/view?usp=sharing). (百度云盘链接:[link](https://pan.baidu.com/s/1BgpoXYmn5Df-GmklCQVI3A?pwd=ib6i)，把压缩包解开后放在 train_log/\*)
+* Download the pretrained **HD** models from [here](https://drive.google.com/file/d/16lfuv87e-4TqsylZpjoejXLC1t-eSRU4/view?usp=sharing). (百度云盘链接:[link](https://pan.baidu.com/s/1BgpoXYmn5Df-GmklCQVI3A?pwd=ib6i)，把压缩包解开后放在 train_log/\*)
 * Unzip and move the pretrained parameters to train_log/\*
 * This model is not reported by our paper, for our paper model please refer to [evaluation](https://github.com/MegEngine/arXiv2020-RIFE/#evaluation).
 
