@@ -19,7 +19,7 @@ cd arXiv2020-RIFE
 pip3 install -r requirements.txt
 ```
 
-* Download the pretrained **HD** models from [here](https://drive.google.com/file/d/16lfuv87e-4TqsylZpjoejXLC1t-eSRU4/view?usp=sharing). (百度云盘链接:[link](https://pan.baidu.com/s/1BgpoXYmn5Df-GmklCQVI3A?pwd=ib6i)，把压缩包解开后放在 train_log/\*)
+* Download the pretrained **HD** models from [here](https://data.megengine.org.cn/research/rife/flownet/flownet.pkl).
 * Unzip and move the pretrained parameters to train_log/\*
 * This model is not reported by our paper, for our paper model please refer to [evaluation](https://github.com/MegEngine/arXiv2020-RIFE/#evaluation).
 
@@ -42,7 +42,7 @@ ffmpeg -r 10 -f image2 -i output/img%d.png -s 448x256 -vf "split[s0][s1];[s0]pal
 ```
 
 ## Evaluation
-Download [RIFE model](https://drive.google.com/file/d/16lfuv87e-4TqsylZpjoejXLC1t-eSRU4/view?usp=sharing) or [RIFE_m model](https://drive.google.com/file/d/1qIAu2OF1jplj_Lmm_-a32uah0Ex9ZBEa/view?usp=sharing) reported by our paper.
+Download [RIFE model](https://data.megengine.org.cn/research/rife/flownet/flownet.pkl) or [RIFE_m model](https://data.megengine.org.cn/research/rife/flownet_m/flownet.pkl) reported by our paper.
 
 **MiddleBury**: Download [MiddleBury OTHER dataset](https://vision.middlebury.edu/flow/data/) at ./other-data and ./other-gt-interp
 
