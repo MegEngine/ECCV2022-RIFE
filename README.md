@@ -5,7 +5,7 @@
 ![Demo](./demo/D2_slomo_clipped.gif)
 
 ## Introduction
-This project is the implement of [RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair of images. 
+This project is an official implementation of [RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair of images. 
 
 This repo is an implementation of [MegEngine](https://github.com/MegEngine/MegEngine) version RIFE, there is also a [PyTorch implementation](https://github.com/hzwer/Arxiv2020-RIFE).
 
