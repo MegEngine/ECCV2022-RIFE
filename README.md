@@ -1,6 +1,6 @@
-# RIFE - Real-Time Intermediate Flow Estimation for Video Frame Interpolation
-## [YouTube](https://www.youtube.com/results?search_query=rife+interpolation&sp=CAM%253D) | [BiliBili](https://search.bilibili.com/all?keyword=SVFI&order=stow&duration=0&tids_1=0) 
+# Real-Time Intermediate Flow Estimation for Video Frame Interpolation (MegEngine implementation)
 
+## [YouTube](https://www.youtube.com/results?search_query=rife+interpolation&sp=CAM%253D) | [BiliBili](https://search.bilibili.com/all?keyword=SVFI&order=stow&duration=0&tids_1=0) | [Tutorial](https://www.youtube.com/watch?v=gf_on-dbwyU&feature=emb_title)
 16X interpolation results from two input images: 
 
 ![Demo](./demo/I2_slomo_clipped.gif)
@@ -9,7 +9,7 @@
 
 
 ## Introduction
-This project is an official implementation (MegEngine implementation) of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). For Pytorch implementation, please refers to [this repo](https://github.com/megvii-research/ECCV2022-RIFE). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair of images. 
+This project is an official MegEngine implementation of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). For Pytorch implementation, please refers to [this repo](https://github.com/megvii-research/ECCV2022-RIFE). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair of images. 
 
 ## CLI Usage
 
