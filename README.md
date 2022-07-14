@@ -9,23 +9,21 @@
 
 
 ## Introduction
-This project is an official implementation (MegEngine implementation) of [RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). For Pytorch implementation, please refers to [this repo](https://github.com/hzwer/Arxiv2020-RIFE). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair of images. 
-
-
+This project is an official implementation (MegEngine implementation) of [Real-Time Intermediate Flow Estimation for Video Frame Interpolation](https://arxiv.org/abs/2011.06294). For Pytorch implementation, please refers to [this repo](https://github.com/megvii-research/ECCV2022-RIFE). Currently, our model can run 30+FPS for 2X 720p interpolation on a 2080Ti GPU. It supports arbitrary-timestep interpolation between a pair of images. 
 
 ## CLI Usage
 
 ### Installation
 
 ```
-git clone git@github.com:MegEngine/arXiv2020-RIFE
-cd arXiv2020-RIFE
+git clone git@github.com:MegEngine/ECCV2022-RIFE-MegEngine
+cd ECCV2022-RIFE-MegEngine
 pip3 install -r requirements.txt
 ```
 
 * Download the pretrained **HD** models from [here](https://data.megengine.org.cn/research/rife/flownet/flownet.pkl).
 * Unzip and move the pretrained parameters to train_log/\*
-* This model is not reported by our paper, for our paper model please refer to [evaluation](https://github.com/MegEngine/arXiv2020-RIFE/#evaluation).
+* This model is not reported by our paper, for our paper model please refer to [evaluation](https://github.com/MegEngine/ECCV2022-RIFE-MegEngine/#evaluation).
 
 ### Run
 
@@ -73,11 +71,11 @@ python3 train.py --arbitrary=False
 ## Citation
 
 ```
-@article{huang2020rife,
-  title={RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation},
+@inproceedings{huang2022rife,
+  title={Real-Time Intermediate Flow Estimation for Video Frame Interpolation},
   author={Huang, Zhewei and Zhang, Tianyuan and Heng, Wen and Shi, Boxin and Zhou, Shuchang},
-  journal={arXiv preprint arXiv:2011.06294},
-  year={2020}
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  year={2022}
 }
 ```
 
